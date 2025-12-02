@@ -1,0 +1,9 @@
+{
+  "build": {
+    "commands": [
+      "pip install -r requirements.txt",
+      "python import_data.py"
+    ]
+  },
+  "start": "gunicorn app:app"
+}
